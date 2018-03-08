@@ -3,6 +3,8 @@
 
 RadSpots is a social platform for all skateboard enthusiasts. Search Austin for the best skate park or the best skate spot.  Know of a better place to skate? Upload your own location and add it to the map!
 
+#### NOTE: due to accidental batch queries to the Mapbox geocoding API our account was shut down and RadSpot locations are no longer visible on the main map causing the live site to not be functional. :poop:  Please view the video and screenshots below to see the app in action!
+
 # User stories
 
 - A user should be able to create a new user acccount
@@ -31,9 +33,11 @@ RadSpots is a social platform for all skateboard enthusiasts. Search Austin for 
 - EJS
 - Bulma
 
-# Screenshots of working app
-#### NOTE: due to accidental batch queries to the Mapbox geocoding API our account was shut down and RadSpot locations are no longer visible on the main map. This also lead to the destruction of the individual RadSpot location page, but this functioned similarly to the user profile page pictured below with the additonal functionality of being able to comment, post photos/videos, and see all user feed from that specific location.  :poop:
 
+# Video
+https://youtu.be/POSg7bGOx6w
+
+# Screenshots
 ![alt tag](screenshots/sign-up.png)
 ![alt tag](screenshots/login.png)
 ![alt tag](screenshots/map-tab.png)
