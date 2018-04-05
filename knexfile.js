@@ -38,13 +38,13 @@ module.exports = {
   production: {
     client: 'pg',
     connection: {
-      host: 'ec2-54-243-213-188.compute-1.amazonaws.com',
-      database: 'dc0ah2gcsj62n4',
-      user:     'kbmvmblzgvdzsk',
-      password: 'c71a66d59fe427ce748992bca944beeeef0cf3a57a1c3449f5f0b030411bdc4b'
+      host: 'ec2-54-163-240-54.compute-1.amazonaws.com',
+      database: 'd6umk7tiftmv6s',
+      user:     'sppvgmqyyvuzcu',
+      password: '0575393ced059f2070d083014954fb9cfea91b2e07b6f0c551f358b3da79420c'
     },
     pool: {
-      min: 2,
+      min: 0,
       max: 10
     },
     migrations: {
