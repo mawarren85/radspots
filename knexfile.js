@@ -30,6 +30,7 @@ module.exports = {
       max: 10
     },
     migrations: {
+      // dasdasd
       tableName: 'knex_migrations'
     }
   },
