@@ -22,6 +22,7 @@ var flash = require('connect-flash');
 
 // Tell our app where to find our views.
 app.set('views', './views');
+console.log('buttttt')
 
 
 // Telling our app which TEMPLATING ENGINE to use.
