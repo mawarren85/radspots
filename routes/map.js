@@ -39,7 +39,6 @@ function getGeoLocations() {
   knex('spots').select('spot_location')
     .then(function(results) {
       let locationResults = results;
-
       locationResults.forEach(function(location) {
         tempLocation = location.spot_location
 
@@ -65,6 +64,7 @@ function geo(err, data, results) {
       .then(function(results) {
 
         if (results.length) {
+          console.log(data);
           locationsFeatureCollection.features.push({
             "type": "Feature",
             "geometry": {
