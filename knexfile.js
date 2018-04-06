@@ -40,6 +40,7 @@ module.exports = {
     connection: {
       host: 'ec2-54-163-240-54.compute-1.amazonaws.com',
       database: 'd6umk7tiftmv6s',
+      port: 5432,
       user:     'sppvgmqyyvuzcu',
       password: '0575393ced059f2070d083014954fb9cfea91b2e07b6f0c551f358b3da79420c'
     },
